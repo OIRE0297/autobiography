@@ -11,17 +11,52 @@
  			border-bottom-width: 5px;
  			border-bottom-color: blue;
  		}
+
+ 	#navbar ul{
+ 		margin: 0; 
+		padding: 5px; 
+		list-style-type: none; 
+		text-align: center; 
+		background-color: black; 
+ 	}
+
+ 	#navbar ul li {  
+	display: inline; 
+	} 
+ 
+	#navbar ul li a { 
+		text-decoration: none; 
+		padding: .2em 1em; 
+		color: #fff; 
+		background-color: black; 
+		} 
+ 
+	#navbar ul li a:hover { 
+		color: #000; 
+		background-color: #fff; 
+	} 
 </style>
 
 </head>
 <body>
+
+	<div id="navbar">
+		<ul>
+			<li><a href="#aboutMe">About Me</a></li>
+			<li><a href="#mybest">My friends</a></li>
+			<li><a href="#myActivities">My activities</a></li>
+		</ul>
+	</div>
+
+
+
 	<h1>Oscar Iván Ramírez Elorza</h1>
-	<img src="25311388_1681324591888522_1439865624627957218_o.jpg" width="50%">
+	<img src="https://scontent-dft4-1.xx.fbcdn.net/v/t1.0-9/24899814_1681324591888522_1439865624627957218_n.jpg?oh=66abe3bb4a2896c41ce680e543fb56aa&oe=5AFC5D6C" width="50%">
 	<pre>
 		Hello everyone, I'm Oscar. I born in La Piedad, Michoacán in July the second in 1997.
 	</pre>
 	<a href="#lastOne">Go to the last one</a>
-	<p>
+	<p id="aboutMe">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum ante felis, ut posuere velit eleifend tincidunt. Donec augue risus, consequat eu convallis eu, pretium eget sapien. Phasellus at est ut arcu volutpat venenatis eu commodo sapien. Nulla at convallis orci. Vestibulum eget sapien in tellus commodo vestibulum. Proin eu dolor eu mauris auctor elementum. Donec dapibus lobortis condimentum. Nam sit amet sagittis turpis, non pellentesque ligula. Fusce arcu justo, aliquam quis semper a, porttitor non neque. Phasellus sollicitudin diam libero. Sed eu magna risus. Sed malesuada semper leo, id elementum nisl ultricies non. Etiam at nulla id mi blandit dapibus. Mauris dignissim urna molestie maximus congue.
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales tortor ut velit fermentum, bibendum euismod dui ornare. Duis in ante vitae mi ornare mattis eget eget diam. Curabitur vestibulum consectetur ipsum, sed mollis augue pharetra vitae. Duis sit amet finibus sem. Etiam risus ante, dapibus ut turpis vel, laoreet congue justo. Quisque viverra elementum tortor, in dignissim ante tincidunt sit amet. Etiam maximus tellus sed odio varius, vitae volutpat ex pharetra. Vestibulum mauris dolor, hendrerit sit amet nunc id, dictum rutrum elit. Vestibulum a luctus erat. Fusce mollis dui at porttitor fringilla.
@@ -40,7 +75,7 @@
 	</p>
 	<p id="lastOne">
 		Nam in hendrerit justo, ac condimentum tellus. Donec massa nulla, aliquet non ultrices ac, auctor et nibh. Aliquam ultricies tristique lectus eu volutpat. Nunc erat nisi, semper et nunc ac, lobortis convallis ante. Cras vestibulum id ante a auctor. Duis pellentesque lobortis diam, sed laoreet libero aliquam in. Nam eu enim gravida lectus aliquam fermentum vel sed orci. Integer suscipit sollicitudin tortor at aliquam. Nunc rhoncus sed metus nec auctor.
-		<ul>
+		<ul id="myActivities">
 			<h4>My favorite activities</h4>
 
 			<li>Hang  out with my girlfriend</li>
@@ -51,10 +86,40 @@
 		</ul>
 	</p>
 
-	<pre>
+	<h3 id="mybest">My best friends</h3>
+	<table border="1">
+		<tr>
+			<td style="color: red"><center><strong>Name</strong></center></td>
+			<td style="color: red"><center><strong>Phone number</strong></center></td>
+
+		</tr>
+		<tr>
+			<td>Diego Hernández Calderón</td>
+			<td>3318627928</td>
+		</tr>
+		<tr>
+			<td>Jorge Eduardo Pineda Bernaldez</td>
+			<td>3331009220</td>
+		</tr>
+		<tr>
+			<td>Alexis Lael González García</td>
+			<td>3315329750</td>
+		</tr>
+		<tr>
+			<td>Diego Alberto Rolón Chávez</td>
+			<td>3334724783</td>
+		</tr>
+		<tr>
+			<td>Alfonso de Jesús Torres Perales</td>
+			<td>3323436465</td>
+		</tr>
+
+	</table>
+	
+	<pre style="color: blue">
 		This is one of Barcelona´s newspaper
 	</pre>
-	<iframe src="http://www.mundodeportivo.com" height="1000" width="1000"></iframe>
+	<iframe src="http://www.mundodeportivo.com" height="1000" width="500"></iframe>
 
 </body>
 </html>
