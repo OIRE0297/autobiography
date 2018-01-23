@@ -1,0 +1,36 @@
+	.subparagraph, .acts{
+		color: blue;
+		font-weight: bold;
+	}
+
+	#name, #phone, #web{
+		color: red;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#myActivities{
+		border: solid 3px blue;
+	}
+
+	#mybest{
+		color: red;
+		font-weight: bold;
+		border: solid;
+	}
+
+	#music{
+		color: blue;
+		font-weight: bold;
+		border: solid;
+		font-size: 20px;
+	}
+
+	ul > li{
+		background: yellow;
+		width: 480px;
+	}
+
+	#lastOne ~ ul{
+		font-family: comic sans;
+	}
